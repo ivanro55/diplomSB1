@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgdip/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imgdip/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imgdip/favicon-16x16.png">	
+	<!-- Слайдер -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>Дипломный проект</title>
+</head>
+<body>
+	<!-- Скрытые попапы -->
+	<div class="popup-container" id="myPopup">
+		<div class="form-container">
+			<form class="feedback-container">
+				<div class="feedback-head">
+					<h3>Заполните заявку:</h3>
+					<img class="feedback__button_delete" src="imgdip/delete.png" alt="delete">
+				</div>
+				<div class="feedback-name">
+					<label for='user-name'>Ваше имя: *</label>
+					<input type="text" id="user-name" autofocus required="" pattern="[A-Za-zА-Яа-яЁё]{3,}">
+				</div>
+				<div class="feedback-mail">
+					<label for='user-mail'>E-mail: *</label>
+					<input type="email" id="user-mail" required="" pattern="\S+@[a-z]+.[a-z]+">
+				</div>
+				<div class="feedback-phone">
+					<label for='user-phone'>Ваш номер телефона: *</label>
+					<input type="tel" id="user-phone" required="" placeholder="+7(000)-000-00-00" pattern="[0-9]{11}"> 
+				</div>
+				<button class="feedback-button">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<section class="header">
+			<div class="flying-elements-header">
+				<div class="el1">{ }</div>
+				<div class="el2">#</div>
+				<div class="el3">&#060;&#047;&#062;</div>
+				<div class="el4">&#060;&#100;&#105;&#118;&#062; </div>
+				<div class="el5">&#060;&#100;&#105;&#118;&#062;</div>
+			</div>		
+		<article class="fixed-container">
+			<article class="nav">
+				<img  src="imgdip/menu.png" class="menu-icon" alt="Иконка меню">
+				<nav class="nav-left">
+					<a href="#serv" class="serv__link">Услуги</a>
+					<a href="#exa" class="portfolio__link">Портфолио</a>
+					<a href="#pri" class="price__link">Стоимость</a>
+				</nav>
+				<a class="nav-right" href="tel:+74999955577">+7 (499) 995-55-77</a>
+				<img  src="imgdip/phone.png" class="phone-icon" alt="Иконка телефона">
+				<button class="btn call-btn" type="submit">Заказать звонок</button>
+			</article>
+			<ul class="header-menu_hidden">
+				<li><a href="#serv" class="serv__link">Услуги</a></li>
+				<li><a href="#exa" class="portfolio__link">Портфолио</a></li>
+				<li><a href="#pri" class="price__link">Стоимость</a></li>
+			</ul>
+			<div class="desc header-desc_full">
+				<section class="header-desc">
+					<h1>Дмитрий Алексеев</h1>
+					<span>Frontend-разработчик и веб-верстальщик</span>
+					<button class="btn info-btn" type="submit">Узнать больше</button>
+				</section>
+			</div>
+		</article>	
+	</section>
+	<section class="work-types">
+		<div class="desc header-desc_870">
+			<section class="header-desc">
+				<h1>Дмитрий Алексеев</h1>
+				<span>Frontend-разработчик и веб-верстальщик</span>
+				<button class="btn info-btn" type="submit">Узнать больше</button>
+			</section>
+		</div>		
+		<article class="fixed-container">
+			<a name="serv"></a> 
+			<h2>Что я делаю</h2>
+			<article class="examples">
+				<a href="#"><div class="ex1">Вёрстка лендинг–страниц
+								и сайтов любой сложности</div></a>
+				<a href="#"><div class="ex2">Адаптивная вёрстка под все
+								браузеры и устройства</div></a>
+				<a href="#"><div class="ex3">Frontend–разработка
+								и программирование</div></a>
+				<a href="#"><div class="ex4">Исправление и доработка
+								существующей вёрстки</div></a>
+			</article>
+			<button class="btn price-btn" type="submit">Узнать Cтоимость</button>
+		</article>
+	</section>
+	<section class="slider-container">
+		<img class="arrow_left global-wrap__arrow_left" src="imgdip/arrowleft.png" alt='Стрелка влево'>
+		<img class="arrow_right global-wrap__arrow_right" src="imgdip/arrowright.png" alt='Стрелка вправо'>
+		<h2>Примеры моих работ</h2>	
+		<div class="slider">
+			<a href="#"><div class="picture1">
+				<p class="slider-item_desc">Cайт психолога Веры Антоновой
+			</div></a>
+			<a href="#"><div class="picture2">
+				<p class="slider-item_desc">Cайт магазина детской одежды
+			</div></a>
+			<a href="#"><div class="picture3">
+				<p class="slider-item_desc">Cайт магазина &laquo;Рыболов&raquo;
+			</div></a>
+			<a href="#"><div class="picture3">
+				<p class="slider-item_desc">Cайт магазина &laquo;Рыболов&raquo;
+			</div></a>
+		</div>
+			<button class="btn order-btn" type="submit">Заказать проект</button>
+	</section>
+	<article class="prices">
+			<div class="flying-elements-prices">
+				<div class="pri1">{ }</div>
+				<div class="pri2">#</div>
+				<div class="pri3">&#060;&#047;&#062;</div>
+				<div class="pri4">{ } </div>
+				<div class="pri5">&#060;&#100;&#105;&#118;&#062;</div>
+			</div>	
+		<article class="fixed-container">
+			<a name="pri"></a>
+			<h2>Адаптивная вёрстка под все устройства<br>
+			и браузеры от 1000 рублей всего за 4 часа.*</h2>
+			<span>* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,
+			<br>в зависимости от сложности задач.</span>  				
+   		</article>
+	</article>
+<footer class="contacts">
+	<article class="fixed-container top-part">
+		<nav class="left-footer">
+			<div><a href="#">Услуги</a></div>
+			<div><a href="#">Портфолио</a></div>
+			<div><a href="#">Стоимость</a></div>
+		</nav>
+		<div class="central-footer">
+			<a class="tel" href="tel:+74999955577">+7 (499) 995-55-77</a>
+			<a class="mail" href="#">dmitry@alekseev.com</a>
+		</div>
+		<div class="right-footer">
+			<button class="btn call-btn_1" type="submit">Заказать звонок</button>
+			<div class="sprite-flex">
+				<a href="#" class="sprite sprite-facebook"></a>
+				<a href="#" class="sprite sprite-instagram"></a>
+				<a href="#" class="sprite sprite-twitter"></a>
+				<a href="#" class="sprite sprite-vk"></a>
+			</div>
+		</div>
+	</article>
+	<div class="bg"> <!--  Фон для нижнего блока -->
+		<div class="fixed-container bottom-part">&copy; Дмитрий Алексеев, 2016 – 2018</div>
+	</div>
+</footer>
+	<script src="jquery-3.3.1.min.js"></script>
+	<!-- livereload -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!-- Bootstrap -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- slick -->
+	<script  type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="scriptdiplom.js"></script>
+</body>
+</html>
