@@ -23,7 +23,7 @@ $('.slider').slick({
 
 $(".btn").click(function() {
 	$("#myPopup").css({'display' : 'block'});
-	$("html").css({'overflow' : 'hidden'});
+	$("html").css({'overflow' : 'hidden',  'margin-right' : '17px'});
  });
 
 $(".phone-icon").click(function() {
@@ -32,9 +32,13 @@ $(".phone-icon").click(function() {
 
 $(".feedback__button_delete").click(function() {
 	$("#myPopup").css({'display' : 'none'});
-	$("html").css({'overflow' : 'auto'});
+	$("html").css({'overflow' : 'auto', 'margin-right' : '0' });
  });
 
 $('.menu-icon').click(function() { 
 	$('.header-menu_hidden').slideToggle();
+});
+
+$(function(){
+  $("#user-phone").mask("+7(999) 999-99-99");
 });
